@@ -1,5 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home1/dairyikh/hello.com/
-    - /bin/rm -rf $DEPLOYPATH/*
-    - /bin/cp -R . $DEPLOYPATH
+    - /bin/cp -R index.php $DEPLOYPATH
